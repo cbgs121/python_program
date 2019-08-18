@@ -7,8 +7,8 @@ for i in range(2,n+1):
         pr.append(i)
     j = 0
     while j <(len(pr)) and pr[j]<=lp[i] and i*pr[j]<=n:
-	lp[i*pr[j]]=pr[j]
-	j+=1
+    	lp[i*pr[j]]=pr[j]
+    	j+=1
 print(pr)
 print(len(pr))
 

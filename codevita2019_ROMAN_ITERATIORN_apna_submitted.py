@@ -12,11 +12,7 @@ def roman(n):
         i-=1
     return result
 
-# print(roman(901))
-
-
 n = int(input())
-# print("Some middle calculation")
 while n>=1 and n<=3999:
     st = roman(n)
     mx = max(list(st))
@@ -34,6 +30,5 @@ while n>=1 and n<=3999:
         temp += bs*(base**k)
         k+=1
     n = temp
-    # print("roman value : ",st,"----->value in base {} : ".format(base), n)
-    
+   
 print(n)
